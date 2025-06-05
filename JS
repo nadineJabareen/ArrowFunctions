@@ -4,21 +4,28 @@
 /*                                 Arrow Function                                            */
 
 // Task#1
+const Task1=@you will see Exclamation in end"
 const addExclamation = str => str + "!";
-
+console.log(addExclamation(Task1));
 
 // Task#2
+const Task2 = [1, 2, 3];
 const squareAll = arr => arr.map(num => num * num);
+console.log(squareAll(Task2));
 
 // Task#3
+const Task3 = "I Love JS"
 const reverseWords = sentence => sentence.split(" ").reverse().join(" ");
+console.log(reversWords(Task2));
 
 //Task#4
-const filterNames = (names, minLength) => {
-    return names.filter(name => name.length > minLength);
-  };
+Let Task4 = ["Nadine", "liran", "MO", "sickness", 3];
+const names = Task4.slice(0, -1);
+const minLength=Task4[Task4.length - 1];
+const filterNames = (names, minLength) => names.filter(name => name.length > minLength);
+console.log(filterNames(names, minLength));
 
   //Task#5
-  const allPositive = numbers => {
-    return numbers.every(num => num > 0);
-  };
+const Task5=[1, -2, 3, 4, 5]
+const allPositive = numbers => numbers.every(num => num > 0);
+console.log(allPositive(Task5));
